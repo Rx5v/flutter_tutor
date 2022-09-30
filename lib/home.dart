@@ -33,7 +33,7 @@ class HomePage extends StatelessWidget {
             ),
           ),
           Expanded(
-            flex: 3,
+            flex: 2,
             child: TravelBlog(),
           ),
           Padding(
@@ -52,8 +52,8 @@ class HomePage extends StatelessWidget {
               ],
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.all(12),
+          Expanded(
+            flex: 1,
             child: MostPopular(),
           ),
         ],
